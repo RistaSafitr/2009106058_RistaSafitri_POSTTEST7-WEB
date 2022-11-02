@@ -1,0 +1,59 @@
+
+.main-login {
+    height: 1000px;
+}
+
+.tabel {
+    display: flex;
+    justify-content: center;
+}
+
+.tabel table {
+    margin-top: 15%;
+    width: 800px;
+    height: 200px;
+    border-style: none;
+}
+
+.tabel th,td {
+    padding: 10px;
+    border: 1px solid rgba(255, 250, 250, 0);
+    text-align: center;
+}
+
+.tabel tr:nth-child(even){background-color: #ffffff00;}
+
+.tabel th{
+    color: black;
+}
+
+.tabel h2 {
+    padding-left: 70px;
+    padding-bottom: 20px;
+    color: rgb(113, 114, 106);
+}
+
+form, form .input-icon{width:100%}
+form .input-icon{position: static;}
+
+.input-icon {
+    background-color: rgb(255, 255, 255);
+    border: 4px;
+    border-radius: 10px;
+}
+
+form input {
+    border:1px solid rgb(221, 221, 221);
+    border-radius:2px;
+    outline:none;
+    margin-top:3px;
+    margin-bottom:6px;
+    font-size:inherit;
+    display:block;
+    padding:7px;
+    padding-left:center;
+    width:100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

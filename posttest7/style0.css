@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  label {
+    font-size: larger;
+  }
+  
+  textarea {
+    margin-top: 20px;
+  }
+  
+  thead tr {
+    background-color: #cceedc;
+    color: black;
+  }
+  
+  th {
+    padding: 10px 5px;
+    border-bottom: 1px solid grey;
+    border-right:  1px solid grey;
+  }
+  
+  td {
+    height: 40px;
+    border-bottom: 1px solid grey;
+    border-right:  1px solid grey;
+  }
+  
+  table {
+    margin-top: 200px;
+    width: 90%;
+  }
+
+  table a {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .form-class {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .form-text {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px 20px;
+  }
+
+  .list-table {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .edit img {
+    background-color: #f8fcfa;
+    border-radius: 5px;
+  }
+
+  .hapus img {
+    background-color: #f8fcfa;
+    border-radius: 5px;
+  }
+
+  .tombol-submit {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    font-size: larger;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(79, 110, 110);
+    color: white;
+  }
+  
+  .tombol-submit:hover {
+    background-color: rgb(79, 110, 110);
+  }
+
+  .edit-data {
+    height: 1100px;
+    width: 90%;
+  }
+
+  .edit-data form {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-top: 30px;
+    width: 50%;
+    grid-gap: 16px;
+    padding-left: 30%;
+    padding-right: 35%;
+  }
+
+  .edit-data form label {
+    display: grid;
+    grid-template-columns: 200px 2fr;
+    padding-top: 15px;
+    padding-left: 25%;
+    padding-right: 35%;
+  }
+
+  h2 {
+    padding-top: 180px;
+    padding-left: 20%;
+  }
+  

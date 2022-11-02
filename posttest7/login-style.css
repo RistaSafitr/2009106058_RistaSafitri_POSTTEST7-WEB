@@ -1,0 +1,53 @@
+/* login.php */
+.main-login {
+    padding-top: 300px;
+}
+
+#login-judul {
+    font-size: 32px;
+}
+
+.login {
+    padding-left: 50px;
+    float: right;
+    margin-top: 25px;
+}
+
+img.login-pic {
+    float: right;
+    padding-left: 35%;
+}
+
+/* registrasi.php */
+#judul-regis {
+    font-size: 32px;
+    padding-top: 225px;
+}
+
+.latar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+/* login.php & registrasi.php */
+form {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
+    padding-left: 40%;
+    padding-right: 35%;
+}
+
+.list-table center .searching {
+    padding:1px 5px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+	width:390px;
+	height:2em;
+}
+
+.search {
+    padding: 10px 5px;
+    width: 500px;
+}
